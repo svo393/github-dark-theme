@@ -4,5 +4,6 @@ node_modules/
 tmp/
 dist/
 dist-chrome/
+dist-edge/
 dist-firefox/
 dist-safari/

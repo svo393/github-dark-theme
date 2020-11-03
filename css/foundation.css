@@ -52,7 +52,6 @@ body {
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
     line-height: inherit;
     cursor: pointer;
@@ -798,11 +797,15 @@ select {
 
 .menu-text {
     font-weight: bold;
-    color: inherit;
+    color: white;
     line-height: 1;
     padding-top: 0;
     padding-bottom: 0;
     padding: 0.7rem 1rem;
+}
+
+.menu-text a {
+    color: inherit;
 }
 
 /* ============================== */
