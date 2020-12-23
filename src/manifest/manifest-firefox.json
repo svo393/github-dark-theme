@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "GitHub Dark Theme",
-    "short_name": "GitHub Dark Theme",
+    "name": "GitHub Dark Theme Fork",
+    "short_name": "Dark Theme",
     "description": "A Dark theme for all of GitHub based on Atom One Dark.",
-    "version": "1.1.23",
+    "version": "1.1.27",
     "applications": {
         "gecko": {
-            "id": "{1dbe3fd3-f191-4a3b-a5d7-a6f95ed2aea1}"
+            "id": "svo393@gmail.com"
         }
     },
     "browser_action": {
@@ -14,17 +14,10 @@
         "default_popup": "app/popup.html"
     },
     "background": {
-        "scripts": [
-            "app/vendor.js",
-            "app/background.js"
-        ]
+        "scripts": ["app/vendor.js", "app/background.js"]
     },
     "content_scripts": [],
-    "permissions": [
-        "tabs",
-        "storage",
-        "<all_urls>"
-    ],
+    "permissions": ["tabs", "storage", "<all_urls>"],
     "optional_permissions": [],
     "icons": {
         "16": "icons/icon16.png",
