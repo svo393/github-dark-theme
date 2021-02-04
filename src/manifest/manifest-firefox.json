@@ -3,7 +3,7 @@
     "name": "GitHub Dark Theme Fork",
     "short_name": "Dark Theme",
     "description": "A Dark theme for all of GitHub based on Atom One Dark.",
-    "version": "1.1.27",
+    "version": "1.1.28",
     "applications": {
         "gecko": {
             "id": "svo393@gmail.com"
